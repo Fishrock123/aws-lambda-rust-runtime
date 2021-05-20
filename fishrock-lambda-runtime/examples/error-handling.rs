@@ -1,4 +1,6 @@
 /// See https://github.com/awslabs/aws-lambda-rust-runtime for more info on Rust runtime for AWS Lambda
+use fishrock_lambda_runtime as lambda_runtime;
+
 use lambda_runtime::{handler_fn, Error};
 use log::LevelFilter;
 use serde::{Deserialize, Serialize};

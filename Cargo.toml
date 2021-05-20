@@ -1,5 +1,5 @@
 [workspace]
 members = [
-    "lambda-http",
-    "lambda-runtime"
+    "fishrock-lambda-http",
+    "fishrock-lambda-runtime"
 ]

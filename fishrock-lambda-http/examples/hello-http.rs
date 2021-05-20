@@ -1,3 +1,5 @@
+use fishrock_lambda_http as lambda_http;
+
 use lambda_http::{
     handler,
     lambda_runtime::{self, Context},

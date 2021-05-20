@@ -1,6 +1,8 @@
 // This example requires the following input to succeed:
 // { "command": "do something" }
 
+use fishrock_lambda_runtime as lambda_runtime;
+
 use lambda_runtime::{handler_fn, Context, Error};
 use log::LevelFilter;
 use serde::{Deserialize, Serialize};
